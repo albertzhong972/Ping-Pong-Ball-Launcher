@@ -1,0 +1,8 @@
+"Src/PWM.o"
+"Src/main.o"
+"Src/stepper.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Src/timer.o"
+"Src/uart.o"
+"Startup/startup_stm32g071rbtx.o"

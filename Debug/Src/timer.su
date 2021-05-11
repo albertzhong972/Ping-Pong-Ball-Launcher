@@ -1,0 +1,3 @@
+timer.c:9:6:Timer_Config	8	static
+timer.c:25:6:Delay_us	16	static
+timer.c:31:6:Delay_ms	24	static

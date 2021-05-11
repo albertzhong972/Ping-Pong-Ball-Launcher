@@ -1,0 +1,2 @@
+stepper.c:13:6:SetDirection	8	static
+stepper.c:29:6:stepper	24	static

@@ -1,0 +1,3 @@
+PWM.c:10:6:PWM_Config	8	static
+PWM.c:32:6:motor1_PWM	32	static
+PWM.c:41:6:motor2_PWM	32	static
