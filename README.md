@@ -9,6 +9,8 @@ I am using the STM32G071RB microcontroller for this project. I've added the abil
 ## Motors
 My original plan was to use two brushed DC motors as my primary method of launching the balls. However, it was difficult to find brushed motors that had any documentation and they have a reputation of low durability due to wear on the brush contacts inside the motor. This is not ideal for my project because I intend to use it for long sessions and don't want it breaking down in months. I ended up researching brushless motors and decided that they were a better fit for my project. They provide more torque than brushed motors and have consistent speed. Brushless motors are commonly used in drone and quadcopter projects and the particular motor that I chose appears to be very popular and easily replaceable. 
 
+![Motors](https://i.imgur.com/jhpEa0S.jpg)
+
 I also wanted to mention that another reason I've decided to avoid brushed motors was due to a Kickstarter campaign called Trainerbot (another ping pong robot). According to their updates, they seem to have having trouble with failing gearboxes on their brushed motors. The product was supposed to ship in 2017 and it's currently 2021.
 
 ## ESC
@@ -19,13 +21,16 @@ My initial plan was to build my own ESC. I could've easily bought a few because 
 ## Power Supply
 Brushless motors are known to consume a lot of power when running. The maximum current draw of my brushless motors were going to be ~20A each. I will not be running my motors anywhere near max speed, so the current draw should be much lower. Regardless, a 12V 5A wall plug will not be enough.
 
-Designing and building my own power supply would be very dangerous due to my lack of knowledge and experience, so I used an off-the-shelf power supply. A cheap 12V 30A switching power supply from Amazon will likely be enough for this use cases of this project, but the power supply that I ended up using was 650W ATX power supply (typically used for gaming PCs). The power supply is likely overkill for my project, but I had an extra one lying around.
+Designing and building my own power supply would be very dangerous due to my lack of knowledge and experience, so I used an off-the-shelf power supply. A cheap 12V 30A switching power supply from Amazon will likely be enough for this use cases of this project, but the power supply that I ended up using was 650W ATX power supply (typically used for gaming PCs). The power supply is likely overkill for my project, but I had an extra one lying around. I also bought an adapter for easy connection to my components.
+
+![Adapter](https://i.imgur.com/2E70pyY.jpg)
 
 ## Feeding System
 I needed a way to feed ping pong balls individually into the launching barrel that was both reliable and compact. The feeding system was modeled in Fusion 360 and 3D printed on the Ender 3 Pro. In the center of the feeding system is a rotating disk powered by a slow rotating stepper motor. The rotating disk would fit one ball and feed it into the barrel to be launched. 
 
 ![feeding system 1](https://i.imgur.com/62OQNeL.jpg)
 ![feeding system 2](https://i.imgur.com/W45Cp2A.jpg)
+![feeding system 3](https://i.imgur.com/Q3kYxCx.jpg)
 
 
 ## Limitations & Weaknesses
@@ -40,3 +45,4 @@ The barrel only has two launching wheels and is only capable of topspin or backs
 
 Despite all of the limitations of my robot, the design is very modular. This allows me the opportunity to improve or repair specific parts of project without affecting the rest of the system.
 
+![complete robot](https://i.imgur.com/Mqq9rPa.jpg)
