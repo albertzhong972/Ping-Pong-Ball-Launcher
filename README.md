@@ -24,6 +24,8 @@ Designing and building my own power supply would be very dangerous due to my lac
 ## Feeding System
 I needed a way to feed ping pong balls individually into the launching barrel that was both reliable and compact. The feeding system was modeled in Fusion 360 and 3D printed on the Ender 3 Pro. In the center of the feeding system is a rotating disk powered by a slow rotating stepper motor. The rotating disk would fit one ball and feed it into the barrel to be launched. 
 
+![feeding system 1](https://i.imgur.com/62OQNeL.jpg)
+
 
 ## Limitations & Weaknesses
 I would say that the ping pong robot works really well, but there are still limitations on the project.
