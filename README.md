@@ -1,4 +1,5 @@
 # Ping Pong Ball Launcher
+https://youtu.be/X3PAqk20X44
 
 ## Introduction
 The goal of this personal project was to create ping pong robot that I could use for exercise at the fraction of the cost of buying one off the shelf. The design itself is very modular. 
